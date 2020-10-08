@@ -1,4 +1,5 @@
 本项目使用的服务器为后台程序员所写！
+启动服务器：node index.js
 
 使用技术：jQuery,ajax
 
