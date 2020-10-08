@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- 标题左边小图标 -->
+		<link rel="shortcut icon" href="/images/favicon.ico" />
+		<title>有品</title>
+		<link rel="stylesheet" href="/assets/css/regions_picker_m.css" />
+		<link rel="stylesheet" href="/assets/css/reset.css" />
+		<link rel="stylesheet" href="/assets/css/public.css" />
+		<link rel="stylesheet" href="/assets/css/address_Validform_v5.3.2.css" />
+		<link rel="stylesheet" href="address.css" />
+	</head>
+	<body>
+		<div class="page-container active">
+			<div class="page-top">
+				<span class="title">收货地址</span>
+				<img src="/images/back.png" alt="" />
+			</div>
+			<div class="page-content no">
+				<div class="no-result active">
+					<img src="/images/address/no_result_address.png" alt="" />
+					<span>您还没有收货地址，请点击下方+新建</span>
+				</div>
+			</div>
+			<div class="page-content yes active hide-scroll">
+				<ul class="address">
+				</ul>
+			</div>
+			<div class="page-footer">
+				<span>+ 添加地址</span>
+			</div>
+		</div>
+		<div class="pop-content-wrapper">
+			<div class="pop-top">
+				<span class="title">新增地址</span>
+				<img src="/images/back.png" alt="" />
+			</div>
+			<div class="pop-content">
+				<form class="content">
+					<div class="name-wrapper">
+						<span class="name">收货人姓名</span>
+						<input type="text" value='请输入收货人姓名' tip='请输入收货人姓名' sucmsg=' ' 
+						class="input-name gray" nullmsg='收货人姓名不能为空' errormsg='收货人姓名长度5-16' altercss='gray'
+						datatype='name'/>
+						<span class="Validform_checktip text"></span>
+					</div>
+					<div class="phone-wrapper">
+						<span class="phone">手机号码</span>
+						<input type="text" value='请输入手机号' tip='请输入手机号' class="input-phone gray" altercss='gray'
+						sucmsg=' ' nullmsg='手机号码不能为空' errormsg='无效手机号' datatype='phone'/>
+						<span class="Validform_checktip text"></span>
+					</div>
+					<div class="address-wrapper">
+						<span class="address">所在地区</span>
+						<input type="text" value='' tip='' class="regions-picker gray" altercss='gray'/>
+						<span class="Validform_checktip text"></span>
+					</div>
+					<div class="detail-address-wrapper">
+						<span class="detail-address">街道地址</span>
+						<input type="text" value='请输入街道地址' tip='请输入街道地址' class="input-address gray" altercss='gray'
+						sucmsg=' ' nullmsg='详细地址不能为空' errormsg='详细地址' datatype='address'/>
+						<span class="Validform_checktip text"></span>
+					</div>
+					
+					<div class="set-default active">
+						<img src="/images/icon_uncheck.png" alt=""  class="unchecked active"/>
+						<img src="/images/icon_check_red.png" alt="" class="checked" />
+						<span class="text">设置默认地址</span>
+					</div>
+					<div class="btn-delete">
+						<span>删除收货地址</span>
+					</div>
+					<div class="btn-wrapper">
+						<span class="btn-save">保存</span>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		
+		
+		<script src="/assets/js/js-cookie.js"></script>
+		<script src="/assets/js/jQuery-3.4.0.js"></script>
+		<script src="/assets/js/jQuery-extend.js"></script>
+		<script src="/assets/js/Validform/Validform_v5.3.2.js"></script>
+		<script src="/assets/js/regions.js"></script>
+		<script src="/assets/js/regions_picker_m.js"></script>
+		<script src="address.js"></script>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "id": "2031107",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2763934",
+      "name": "对号",
+      "font_class": "allright",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    }
+  ]
+}

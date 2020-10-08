@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name='viewport' content='width-device, initial-scale=1.0'>
+		<link rel="shortcut icon" href="/images/favicon.ico" />
+		<title>有品</title>
+		<link rel="stylesheet" href="/assets/css/Validform_v5.3.2.css" />
+		<link rel="stylesheet" href="/assets/css/public.css" />
+		<link rel="stylesheet" href="/assets/css/reset.css" />
+		<link rel="stylesheet" href="register.css" />
+	</head>
+	<body>
+		<div class="page-container">
+			<div class="page-top">
+				<span class="title">注册小米账号</span>
+				<img src="/images/help.png" alt="" />
+			</div>
+			<div class="page-content">
+				<form action="" class="content">
+					<div class="phone-wrapper wrapper">
+						<span class="title">+86 &gt;</span>
+						<input type="text" class="phone gray" datatype='phone' value='请输入手机号码'
+						 tip='请输入手机号码' altercss='gray' sucmsg=' ' nullmsg='手机号不能为空' 
+						 errormsg='无效手机号' />
+						<span class="Validform_checktip text"></span>
+					</div>
+					<div class="name-wrapper wrapper">
+						<span class="title">name &gt;</span>
+						<input type="text" class="name gray" datatype='name' value='请输入用户名' 
+						tip='请输入用户名' altercss='gray' sucmsg=' ' nullmsg='用户名不能为空'
+						errormsg='用户名为5-16位' />
+						<span class="Validform_checktip text"></span>
+					</div>
+					<div class="pwd-wrapper wrapper">
+						<span class="title">pwd &gt;</span>
+						<input type="password" class="pwd" datatype='pwd' placeholder="请输入密码" altercss='gray' sucmsg=' ' nullmsg='密码不能为空'
+						errormsg='密码为3-16位'/>
+						<span class="Validform_checktip text"></span>
+					</div>
+					<div class="repwd-wrapper wrapper">
+						<span class="title">repwd &gt;</span>
+						<input type="password" class="repwd" datatype='repwd' placeholder="请重复输入密码" altercss='gray' sucmsg=' ' nullmsg='重复密码不能为空'
+						errormsg='两次密码不一致'/>
+						<span class="Validform_checktip text"></span>
+					</div>
+					<div class="code-wrapper wrapper">
+						<span class="title">code &gt;</span>
+						<input type="text" class="code gray" value='请输入验证码' tip='请输入验证码' altercss='gray'
+						tip='请输入验证码'/>
+						<span class="icon-code">获取验证码</span>
+					</div>
+					<span class="protocol">已阅读并同意：小米用户协议和隐私政策</span>
+					<span class="btn-register">立即注册</span>
+				</form>
+				<div class="bottom">
+					<ul class="wrapper">
+						<li>
+							<span>简体</span>|
+						</li>
+						<li>
+							<span>繁体</span>|
+						</li>
+						<li>
+							<span>English</span>|
+						</li>
+						<li>
+							<span>常见问题</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<img src="/images/back.png" class="back" />
+		</div>
+		
+		
+		
+		<script src="/assets/js/jQuery-3.4.0.js"></script>
+		<script src="/assets/js/jQuery-extend.js"></script>
+		<script src="/assets/js/Validform/Validform_v5.3.2.js"></script>
+		<script src="register.js"></script>
+	</body>
+</html>

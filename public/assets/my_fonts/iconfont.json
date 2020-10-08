@@ -1,0 +1,37 @@
+{
+  "id": "2031107",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15198750",
+      "name": "close",
+      "font_class": "searchclose",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1998391",
+      "name": "eye",
+      "font_class": "eye",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "4084676",
+      "name": "键盘",
+      "font_class": "jianpan",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "2763934",
+      "name": "对号",
+      "font_class": "allright",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    }
+  ]
+}

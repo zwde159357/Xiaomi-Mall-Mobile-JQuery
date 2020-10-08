@@ -1,0 +1,323 @@
+.page-container {
+	height: 100%;
+	background-image: url(/images/bgdImg.png);
+	background-size: 100%  100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.page-container>.page-content {
+	flex-shrink: 0;
+	height: 563px;
+	padding: 0 46px;
+	display: flex;
+	flex-direction: column;
+}
+
+.page-container>.page-content>.title {
+	flex-shrink: 0;
+	height: 133px;
+	padding: 60px 0 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.page-container>.page-content>.title>span {
+	font-size: 22px;
+	line-height: 64px;
+	color: rgba(51,51,51);
+}
+
+.page-container>.page-content>.input-area {
+	flex-shrink: 0;
+	display: flex;
+}
+
+.page-container>.page-content>.input-area>.wrapper {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+}
+
+.page-container>.page-content>.input-area>.wrapper>input {
+	flex-shrink: 0;
+	font-size: 12px;
+	height: 55px;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 16px 0;
+	box-sizing: border-box;
+	display: none;
+}
+
+.page-container>.page-content>.input-area>.wrapper>input.active {
+	display: block;
+}
+
+.page-container>.page-content>.input-area>.wrapper>input.phone {
+	padding-left: 38px;
+}
+
+.page-container>.page-content>.input-area>.wrapper>span {
+	display: none;
+}
+
+.page-container>.page-content>.input-area>.wrapper>span.active {
+	display: block;
+}
+
+.page-container>.page-content>.input-area>.wrapper>i {
+	display: none;
+	position: absolute;
+}
+
+.page-container>.page-content>.input-area>.wrapper>i.active {
+	display: block;
+}
+
+.page-container>.page-content>.input-area>.wrapper>i.keyboard {
+	right: 24px;
+	bottom: 17.5px;
+	font-size: 18px;
+}
+
+.page-container>.page-content>.input-area>.wrapper>i.eye {
+	right: 0;
+	bottom: 21px;
+	font-size: 11px;
+}
+
+.page-container>.page-content>.input-area>.wrapper>span.phone-icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 38px;
+	padding-top: 1px;
+	line-height: 50px;
+	font-size: 13px;
+	color: #999;
+}
+
+.page-container>.page-content>.input-area>.wrapper>span.code-icon {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	text-align: right;
+	color: red;
+	width: 90px;
+	padding-top: 1px;
+	line-height: 39px;
+	font-size: 13px;
+}
+
+.page-container>.page-content>.button-wrapper {
+	flex-shrink: 0;
+	margin-top: 24px;
+	display: flex;
+	flex-direction: column;
+}
+
+.page-container>.page-content>.button-wrapper>span {
+	flex-shrink: 0;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 14px;
+	border-radius: 22px;
+}
+
+.page-container>.page-content>.button-wrapper>span.login {
+	background-color: #e4bb7e;
+	color: white;
+}
+
+.page-container>.page-content>.button-wrapper>span.switch {
+	background-color: rgba(0,0,0,.06);
+	color: rgba(51,51,51);
+}
+
+.page-container>.page-content>.no-code {
+	margin-top: 20px;
+	flex-shrink: 0;
+	line-height: 21px;
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+	display: none;
+}
+
+.page-container>.page-content>.no-code.active {
+	display: block;
+}
+
+.page-container>.page-content>.go-to-register {
+	margin-top: 20px;
+	flex-shrink: 0;
+	line-height: 21px;
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+	display: none;
+}
+
+.page-container>.page-content>.go-to-register.active {
+	display: block;
+}
+
+.page-container>.page-content>.go-to-register>a {
+	color: #999999;
+}
+
+.page-container>.page-content>.other-login {
+	flex-shrink: 0;
+	height: 110px;
+	padding-top: 40px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+.page-container>.page-content>.other-login>span {
+	flex-shrink: 0;
+	font-size: 11px;
+	color: #999;
+	text-align: center;
+}
+
+.page-container>.page-content>.other-login>span:before {
+	content: '-------------';
+}
+
+.page-container>.page-content>.other-login>span::after {
+	content: '-------------';
+}
+
+.page-container>.page-content>.other-login>ul {
+	flex-shrink: 0;
+	font-size: 0;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+
+.page-container>.page-content>.other-login>ul>li {
+	flex-shrink: 0;
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+}
+
+.page-container>.page-content>.other-login>ul>li>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+}
+
+.page-container>.page-content>.other-login>ul>li:nth-child(1)>a {
+	background-color: #ed9090;
+}
+
+.page-container>.page-content>.other-login>ul>li:nth-child(2)>a {
+	background-color: rgba(107,182,243);
+}
+
+.page-container>.page-content>.other-login>ul>li:nth-child(3)>a {
+	background-color: rgba(0,190,0);
+}
+
+.page-container>.page-content>.other-login>ul>li:nth-child(4)>a {
+	background-color: black;
+}
+
+.page-container>.page-content>.other-login>ul>li>a>i {
+	position: absolute;
+	left: 6px;
+	top: 4px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-image: url(/images/icons_type.png);
+	background-repeat: no-repeat;
+}
+
+.page-container>.page-content>.other-login>ul>li>a>i.one {
+	background-position: -38px 0px;
+}
+
+.page-container>.page-content>.other-login>ul>li>a>i.two {
+	background-position: -57px 0px;
+}
+
+.page-container>.page-content>.other-login>ul>li>a>i.three {
+	background-position: -84px 0px;
+}
+
+.page-container>.page-content>.other-login>ul>li>a>i.four {
+	background-image: url(/images/apple.png);
+}
+
+.page-container>.page-bottom {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.page-container>.page-bottom>ul {
+	flex-grow: 1;
+	font-size: 0;
+	padding: 0 46px;
+	display: flex ;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-container>.page-bottom>ul>li {
+	flex-shrink: 0;
+	padding: 0 10px;
+	border-right: 1px solid #999999;
+	text-align: center;
+}
+
+.page-container>.page-bottom>ul>li:nth-child(5) {
+	border: none;
+}
+
+.page-container>.page-bottom>ul>li>a {
+	font-size: 12px;
+	color: #999;
+}
+
+.page-container>.page-bottom>ul>li:nth-child(1)>a {
+	color: #4a4a4a;
+}
+
+img.back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 45px;
+}
+
+img.help {
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	width: 24px;
+}
+
+
+
+
+
+
+
+
+
+

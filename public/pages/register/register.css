@@ -1,0 +1,147 @@
+.page-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.page-container>.page-top {
+	flex-shrink: 0;
+	height: 105px;
+	padding: 35px 0 30px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.page-top>span.title {
+	line-height: 40px;
+	font-size: 24px;
+	color: rgba(0,0,0,0.8);
+}
+
+.page-top>img {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	width: 24px;
+}
+
+.page-container>.page-content {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.page-content>.content {
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	padding: 0 27px;
+}
+
+.page-content>.content>.wrapper {
+	flex-shrink: 0;
+	height: 53px;
+	background-color: rgba(0,0,0,0.06);
+	border-radius: 18px;
+	padding: 0 10px;
+	flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.page-content>.content>.wrapper>span.title {
+	flex-shrink: 0;
+	width: 70px;
+	color: #9B9B9B;
+	text-align: right;
+}
+
+.page-content>.content>.wrapper>input {
+	padding-left: 10px;
+	flex-grow: 1;
+	height: 100%;
+}
+
+.page-content>.content>.code-wrapper {
+	position: relative;
+}
+
+
+.page-content>.content>.code-wrapper>span.icon-code {
+	position: absolute;
+	right: 10px;
+	top: 6px;
+	width: 80px;
+	padding: 10px;
+	background-color: rgba(191,17,17);
+	white-space: nowrap;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+}
+
+.page-content>.content>span.protocol {
+	flex-shrink: 0;
+	height: 16px;
+	font-size: 12px;
+	color: #9B9B9B;
+}
+
+.page-content>.content>span.btn-register {
+	flex-shrink: 0;
+	height: 47px;
+	line-height: 47px;
+	font-weight: bold;
+	background-color: #ff6700;
+	color: white;
+	margin: 15px 0;
+	text-align: center;
+	border-radius: 47px;
+}
+
+.page-content>.bottom {
+	flex-shrink: 0;
+	height: 21px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-content>.bottom>ul.wrapper {
+	flex-grow: 1;
+	
+	display: flex;
+	justify-content: center;
+}
+
+ul.wrapper>li {
+	flex-shrink: 0;
+	text-align: center;
+}
+
+ul.wrapper>li>span {
+	font-size: 13px;
+	padding: 0 10px;
+	color: #9b9b9b;
+}
+
+.gray {
+	color: #4A4A4A;
+}
+
+.content span.Validform_checktip.text {
+	font-size: 16px;
+}
+
+img.back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 45px;
+}

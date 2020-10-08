@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name='viewport' content="width=device-width,initial-scale=1.0">
+		<link rel="shortcut icon" href="/images/favicon.ico" />
+		<title>有品</title>
+		<link rel="stylesheet" href="/assets/fonts/iconfont.css" />
+		<link rel="stylesheet" href="/assets/css/reset.css" />
+		<link rel="stylesheet" href="/assets/css/public.css" />
+		<link rel="stylesheet" href="cart.css" />
+	</head>
+	<body>
+		<div class="page-container">
+			<div class="page-top">
+				<i class="iconfont icon-arrow-left"></i>
+				<span class="title">购物车</span>
+				<span class="edit">编辑</span>
+			</div>
+			
+			<div class="page-content hide-scroll">
+				<div class="scroll-content">
+					<div class="detail-wrapper">
+						<div class="detail">
+							<div class="detail-top">
+								<i class="iconfont icon-arrow-left"></i>
+								<span class="title">购物车</span>
+								<span class="edit">编辑</span>
+							</div>
+							<div class="cart-top">
+								<div class="left-wrapper normal active">
+									<img src="/images/icon_check_red.png" alt="" class='checked all active'/>
+									<img src="/images/icon_uncheck.png" alt="" class="unchecked all"/>
+									<span>小米自营</span>
+								</div>
+								<div class="left-wrapper edit">
+									<img src="/images/icon_check_red.png" alt="" class='checked all'/>
+									<img src="/images/icon_uncheck.png" alt="" class="unchecked all active"/>
+									<span>小米自营</span>
+								</div>
+								<div class="right-wrapper">
+									<img src="/images/icon_tip_black.png" alt="" />
+									<span class="detail">已免运费</span>
+								</div>
+							</div>
+							<div class="wrapper">
+								<ul class="cart-list"></ul>
+							</div>
+						</div>
+					</div>
+					<div class="detail-empty">
+						<img src="/images/no_result_cart.png" alt="" />
+						<span class="text">购物车还没有商品~</span>
+						<span class="btn-go">去逛逛</span>
+					</div>
+					<!-- 推荐 -->
+					<div class="recommend">
+						<img src="/images/recheader_left.png" alt="" class="left"/>
+						<span>为你推荐</span>
+						<img src="/images/recheader_right.png" alt="" class="right"/>
+					</div>
+					<div class="scroll">
+						<div class="content">
+							<ul class="product-list card">
+								<li>
+									<a href='#'>
+										<div class='image-wrapper'>
+											<img src='/images/product/01.png' />
+										</div>
+										<div class='content-wrapper'>
+											<span class='name ellipsis'>小米电视4A 55英寸</span>
+											<span class='brief ellipsis'>极致超窄边框，4K超高清，蓝牙语音遥控，人工智能操作系统</span>
+											<span class='price'>￥1599</span>
+											<div class='bottom'>
+												<span class='rate'>2474条评论</span>
+												<span class='sale'>销量：534件</span>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href='#'>
+										<div class='image-wrapper'>
+											<img src='/images/product/02.png' />
+										</div>
+										<div class='content-wrapper'>
+											<span class='name ellipsis'>小米电视4C 32英寸</span>
+											<span class='brief ellipsis'>卧室推荐，人工智能系统</span>
+											<span class='price'>￥599</span>
+											<div class='bottom'>
+												<span class='rate'>2887条评论</span>
+												<span class='sale'>销量：245件</span>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href='#'>
+										<div class='image-wrapper'>
+											<img src='/images/product/03.png' />
+										</div>
+										<div class='content-wrapper'>
+											<span class='name ellipsis'>小米电视4A 60英寸</span>
+											<span class='brief ellipsis'>4K HDR 超高清/ 人工智能语音 / 2G+8G大存储</span>
+											<span class='price'>￥1899</span>
+											<div class='bottom'>
+												<span class='rate'>688条评论</span>
+												<span class='sale'>销量：65件</span>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href='#'>
+										<div class='image-wrapper'>
+											<img src='/images/product/04.png' />
+										</div>
+										<div class='content-wrapper'>
+											<span class='name ellipsis'>小米电视4C 43英寸</span>
+											<span class='brief ellipsis'>人工智能，钢琴烤漆，杜比音效，杜比音效，海量片源</span>
+											<span class='price'>￥999</span>
+											<div class='bottom'>
+												<span class='rate'>2738条评论</span>
+												<span class='sale'>销量：1000件</span>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="page-bottom normal active">
+				<div class="left">
+					<div class="select-wrapper">
+						<img src="/images/icon_check_red.png" alt="" class='checked all active'/>
+						<img src="/images/icon_uncheck.png" alt="" class="unchecked all"/>
+						<span>全选</span>
+					</div>
+					<div class="account-wrapper">
+						<span class="title">合计：</span>
+						<span class="account">￥0</span>
+					</div>
+				</div>
+				<div class="right">
+					<span class="button-settle">
+						结算(<span class="count">0</span>)
+					</span>
+				</div>
+			</div>
+			<div class="page-bottom edit">
+				<div class="left">
+					<div class="select-wrapper">
+						<img src="/images/icon_check_red.png" alt="" class='checked all'/>
+						<img src="/images/icon_uncheck.png" alt="" class="unchecked all active"/>
+						<span>全选</span>
+					</div>
+				</div>
+				<div class="right">
+					<span class="button-settle">
+						删除<span class="count"></span>
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		<script src="/assets/js/imagesloaded.js"></script>
+		<script src="/assets/js/js-cookie.js"></script>
+		<script src="/assets/js/jQuery-3.4.0.js"></script>
+		<script src="/assets/js/jQuery-extend.js"></script>
+		<script src="cart.js"></script>
+	</body>
+</html>

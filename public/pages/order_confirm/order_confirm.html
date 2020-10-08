@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link rel="shortcut icon" href="/images/favicon.ico" />
+		<title>有品</title>
+		<link rel="stylesheet" href="/assets/fonts/iconfont.css" />
+		<link rel="stylesheet" href="/assets/css/reset.css" />
+		<link rel="stylesheet" href="/assets/css/public.css" />
+		<link rel="stylesheet" href="order_confirm.css" />
+	</head>
+	<body>
+		<div class="page-container">
+			<div class="page-content hide-scroll">
+				<div class="content-top">
+					<div class="top">
+						<i class="iconfont icon-arrow-left back"></i>
+						<span class="name">确认订单</span>
+					</div>
+					<div class="bottom active"></div>
+					<div class="no-bottom">
+						<span>没有默认地址，请添加</span>
+						<i class="iconfont icon-arrow-right go-address"></i>
+					</div>
+				</div>
+				
+				<div class="content-wrapper">
+					<div class="top">
+						<img src="/images/milogo.png" alt="" />
+						<span class="title">小米自营</span>
+					</div>
+					<ul class="selected-product"></ul>
+					<div class="type">
+						<span class="title">发票类型</span>
+						<span class="text">个人电子发票<i class="iconfont icon-arrow-right"></i></span>
+					</div>
+					<div class="message">
+						<span class="title">买家留言</span>
+						<input type="text" placeholder='填写内容需与商家协商并确认,45字以内' />
+					</div>
+				</div>
+				
+				
+				<div class="discount-wrapper">
+					<div class="discount">
+						<span class="title">优惠券</span>
+						<span class="text">暂无可用<i class="iconfont icon-arrow-right"></i></span>
+					</div>
+					<div class="translation">
+						<span class="title">配送方式</span>
+						<span class="text">快速配送</span>
+					</div>
+				</div>
+				
+				<div class="account-wrapper">
+					<div class="account">
+						<span class="title">商品金额</span>
+						<span class="text">￥1999.00</span>
+					</div>
+					<div class="translation-fee">
+						<span class="title">运费</span>
+						<span class="text">+￥0.00</span>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			<div class="page-footer">
+				<div class="account-wrapper">
+					<span class="title">合计：</span>
+					<span class="account">￥0.00</span>
+				</div>
+				<span class="btn-generate-order">提交订单</span>
+			</div>
+		</div>
+		
+		
+		<script src="/assets/js/js-cookie.js"></script>
+		<script src="/assets/js/jQuery-3.4.0.js"></script>
+		<script src="/assets/js/jQuery-extend.js"></script>
+		<script src="order_confirm.js"></script>
+	</body>
+</html>
